@@ -1,7 +1,7 @@
 from unittest import TestCase, main
 
 def par(val):
-    try: #se o usuário digitar um string por exemplo
+    try: #se o usuário digitar um string por exemplo 
         return True if val%2 == 0 else False
     except TypeError:
         return False
