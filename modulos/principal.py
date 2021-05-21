@@ -1,3 +1,3 @@
-from funcao import run
+from modulo import run
 
 run()

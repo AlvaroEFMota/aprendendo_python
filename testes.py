@@ -1,5 +1,8 @@
 from unittest import TestCase, main
 
+#TDD é criar os testes antes de criar as funções
+#BDD é o TDD com linguagem natural
+
 def par(val):
     try: #se o usuário digitar um string por exemplo
         return True if val%2 == 0 else False
