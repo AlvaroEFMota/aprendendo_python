@@ -1,0 +1,35 @@
+<testsuite errors="0" failures="0" hostname="debian" name="calc.Calc" skipped="0" tests="2" time="0.001585" timestamp="2021-05-21T01:46:52.226190"><testcase classname="calc.Calc" name="adicao basica" status="passed" time="0.001243"><system-out>
+<![CDATA[
+@scenario.begin
+  Cenario: adicao basica
+    Quando somar "2" com "2" ... passed in 0.000s
+    Então o resultado deve ser "4" ... passed in 0.000s
+    Quando somar "30" com "2" ... passed in 0.000s
+    Então o resultado deve ser "32" ... passed in 0.000s
+    Quando somar "2" com "-2" ... passed in 0.000s
+    Então o resultado deve ser "0" ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+4 == 4
+32 == 32
+0 == 0
+
+]]>
+</system-out></testcase><testcase classname="calc.Calc" name="soma com ponto flutuante" status="passed" time="0.000342"><system-out>
+<![CDATA[
+@scenario.begin
+  Cenario: soma com ponto flutuante
+    Quando somar "4.2" com "2.1" ... passed in 0.000s
+    Então o resultado deve ser "6.3" ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+6.3 == 6.3
+
+]]>
+</system-out></testcase></testsuite>
